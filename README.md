@@ -53,17 +53,17 @@ Example: For 1 million games player has spent 1 million and had won 990000, RTP 
 > 
 #### Docker instructions
 
-- download the docker image from this url - 
-- docker load -i BetServiceImage.tar\
-- docker run -p **port**:5569 **imageID/name**
+- download the docker image from the provided url 
+- docker load -i BetDockerImage.tar\
+- docker run -p **port**:7761 **imageID/name**
 > Give a port to **port**, and give either the imageId or the name to **imageID/name**
 
 --- 
 
 ### Assumptions
-- Didn't implement any security mechanism since there was no such requirement
-- Unit test cases added just to demo
-- Didn't use any login mechanism
+- Did not implement any security mechanism as there was no such requirement.
+- Dit not try to cover all test scenarios in unit tests, and added few just to demonstrate the skill
+
 
 ---
 
